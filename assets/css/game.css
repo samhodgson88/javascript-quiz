@@ -1,0 +1,45 @@
+* {
+    font-family: 'Courgette', cursive;
+    font-size: 62.5%;
+    background-color:beige;
+    box-sizing: border-box;
+    margin: 0;
+    Padding: 0;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background:	#191970;
+    font-size: 3rem;
+    min-width: 80rem;
+
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    transform: scale (1.02);
+    transform: transform 100ms;
+}
+
+.choice-prefix {
+    padding: 2rem 2.5rem;
+    color:whitesmoke;
+}
+
+.choice-text {
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct {
+    background: linear-gradient(32deg, rgba(11,223,36)0%, rgb(41,232))
+}
+
+@media screen and (max-width: 768px) {
+    .choice-container {
+        min-width: 40rem;
+    }
+}
